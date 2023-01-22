@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css">
     <title>Musoboqa</title>
   </head>
   <body>
@@ -11,8 +12,9 @@
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
+          <button class="header__burger">burger</button>
           <a href="./index.html" class="header__logo">
-            <img src="./images/logo.svg" alt="Site Logo Downloading . . ." />
+            <img src="./images/logo.svg" alt="" />
           </a>
           <nav class="nav">
             <ul class="nav__list">
@@ -33,6 +35,11 @@
               </li>
             </ul>
           </nav>
+          <div class="header__btn-wrap">
+            <button class="header__search">search</button>
+            <button class="header__comms">com</button>
+            <button class="header__contact">contact</button>
+          </div>
         </div>
       </div>
     </header>
@@ -66,6 +73,21 @@
       </div>
     </footer>
     <!-- Site Footer Finish -->
+
+    <!-- Site modal -->
+    <div class="modal">
+      <div class="container">
+        <div class="modal__wrapper">
+          <div class="modal__wrap">
+            <p class="modal__login">login</p>
+            <button class="modal__close">close</button>
+            <input type="email" placeholder="User Name" aria-label="Recipient's username">
+            <input type="password" placeholder="Password" aria-label="Recipient's password">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end site modal -->
 
     <script src="./js/app.js"></script>
   </body>

@@ -1,22 +1,42 @@
-.site-header__inner{
+
+.header{
+
+}
+.header__wrapper{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: darkcyan;
 }
+.header__burger{
 
-.sitenav__list{
+}
+.header__logo{
+
+}
+.nav{
+display: none;
+}
+.nav__list{
+
+}
+.nav__item{
+
+}
+.nav__link{
+
+}
+.header__btn-wrap{
   display: flex;
-  @include list-unstyle;
+  align-items:center;
 }
+.header__search{
 
-.sitenav__item:not(:last-child){
-  margin-right: 30px;
 }
+.header__comms{
 
-.sitenav__link{
-  color: red;
-  text-decoration: none;
+}
+.header__contact{
+
 }
 
 @include desktop-first(700px){
